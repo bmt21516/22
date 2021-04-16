@@ -1,0 +1,277 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPGHn5qjWr4omhQ8+GLaqp/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/bmt21516/22/blob/main/Udfasynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KSfhBlp9JaPs",
+        "outputId": "d983b58b-a4f7-46fd-fed7-3fdd0765281e"
+      },
+      "source": [
+        "x = int(input('값 입력 : '))"
+      ],
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "값 입력 : 80\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 134
+        },
+        "id": "gwKKN6GNKkG6",
+        "outputId": "73b9d2b3-6d72-4a9e-e808-a10c95606122"
+      },
+      "source": [
+        "#성적처리\n",
+        "\n",
+        "x = float(input(\"성적입력:  \"))\n",
+        "\n",
+        "if x >= 70 :\n",
+        "print(f )\n",
+        "elif x >=60:\n",
+        "  print(f [x] : \"재시험\")\n",
+        "else:\n",
+        "  print(f [x] : \"fail\")"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-7-ac74d2a66faa>\"\u001b[0;36m, line \u001b[0;32m6\u001b[0m\n\u001b[0;31m    print(f [x] : \"PASS\")\u001b[0m\n\u001b[0m                ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 134
+        },
+        "id": "chGNiZcGLkIz",
+        "outputId": "15421faa-802d-409e-f263-cab106cc0e88"
+      },
+      "source": [
+        "str = '안녕하세요'\n",
+        "\n",
+        "     "
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "IndentationError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-8-d2d1d65793d4>\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    in '안녕하세요'\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m unexpected indent\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "J53jrE6QN2k5",
+        "outputId": "0c52ed3f-8772-401a-eae7-dbb8a1118381"
+      },
+      "source": [
+        "x = int(input('값 입력 : '))\n",
+        "\n",
+        "if x % 2 == 0:\n",
+        "  print(f'{x}는 짝수')"
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "값 입력 : 4\n",
+            "4는 짝수\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Evc4AivPOykz",
+        "outputId": "388112e5-a391-4229-a74a-d71f43a38d62"
+      },
+      "source": [
+        "str = '안녕하세요'\n",
+        "\n",
+        "for item in str:\n",
+        "  print(item)"
+      ],
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "안\n",
+            "녕\n",
+            "하\n",
+            "세\n",
+            "요\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "J9MTerdpO3Oz",
+        "outputId": "cd0e2c6b-b095-4596-9e9c-001e57b8afae"
+      },
+      "source": [
+        "d = {'a':1, 'b':2}\n",
+        "\n",
+        "for item in d:\n",
+        "  print(item, end=' ')\n",
+        "print()\n",
+        "for item in d.values():\n",
+        "  print(item, end=' ')\n",
+        "print()\n",
+        "for key, value in d.items():\n",
+        "  print(key, value)"
+      ],
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "a b \n",
+            "1 2 \n",
+            "a 1\n",
+            "b 2\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gLIbEPijPsGT",
+        "outputId": "b56a4bab-fde6-4051-fe24-d550cb65321c"
+      },
+      "source": [
+        "xlist = ['1', '2']\n",
+        "\n",
+        "xlist = [int(item) for item in xlist]\n",
+        "print(xlist)"
+      ],
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "[1, 2]\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IrETakmURd7z",
+        "outputId": "4db5978b-f0af-45e0-f360-ef4214f3e21d"
+      },
+      "source": [
+        "i = 0 \n",
+        "\n",
+        "while i <= 5:\n",
+        "  i = i + 1\n",
+        "  if i==2 : continue\n",
+        "\n",
+        "  print(i)\n",
+        "\n",
+        "  if i == 4 : break"
+      ],
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "1\n",
+            "3\n",
+            "4\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ItYo0QfnS_Hk"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
